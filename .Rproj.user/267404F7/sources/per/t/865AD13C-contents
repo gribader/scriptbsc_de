@@ -1,0 +1,14 @@
+---
+title: "Chapter 1"
+author: "Christoph Bader"
+date: "`r Sys.Date()`"
+bibliography: book.bib
+biblio-style: apalike
+link-citations: yes
+description: "Script Einführung Herausforderung NE -Bachelor Minor in NE"
+output: bookdown::gitbook
+
+---
+`r if (knitr::is_html_output()) '
+# References {-}
+'`

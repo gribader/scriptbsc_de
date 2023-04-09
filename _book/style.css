@@ -28,6 +28,7 @@
   width: 200px !important;
   object-fit: contain;
   margin: 0 auto;
+  text-align: left;
   display: block;
 }
 
@@ -39,6 +40,68 @@
 .summary > li:first-child {
   height: auto !important; 
 }
+
+/* links */
+a { 
+  color: #799905;
+}
+
+a:hover {
+ color: #799905; /* darker color when hovering */
+}
+
+/*----------------NAVBAR ---------------*/
+.navbar-default {
+    background-color: #141c25f2;
+}
+
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.active>a, 
+a.dropdown-toggle:hover {
+  background-color: #141c25 !important;
+}
+
+/* Dropdown menu color */
+.navbar-default .dropdown-menu {
+  background-color: #141c25;
+}
+
+/* Dropdown menu hover color */
+  .navbar-default .dropdown-menu>li>a:hover {
+    background-color: #202831f2;
+  }
+
+/* Navbar Links when hovered*/
+.navbar-default .dropdown-menu>.active>a
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav:hover, 
+.navbar-default .navbar-nav>li>a:hover, 
+a.navbar-brand:hover {
+  color: #ffffffab !important;
+  background-color: #141c25;
+}
+
+/*Definitionen in Box */
+.defbox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f5f5f5 5px center/3em no-repeat;
+}
+
+.icon_def {
+  background-image: url("images/definition.png");
+}
+
+/*Facts in Box */
+.factbox {
+  padding: 1em 1em 1em 4em;
+  border-radius: 10px;
+  background: rgba(121, 153, 5, .1) 
+}
+.icon_fact {
+  background-image: url("images/facts.png");
+}
+
 
 
 /* The next two rules make the horizontal line go straight across in top navbar */
