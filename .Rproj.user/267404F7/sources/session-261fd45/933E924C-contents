@@ -18,7 +18,7 @@ Ob in der Wissenschaft, Politik, Wirtschaft oder den Medien – Nachhaltigkeit i
 Heute wird Nachhaltigkeit in Zusammenhang mit Energie, Mobilität, Gebäudesanierung, Ernährung, Bevölkerungsentwicklung, betrieblichem Umweltmanagement und Klimaschutz verwendet, ebenso wie in Kunst, Kultur, Design und Werbung.
 
 ```{r sustainable, fig.align='center', fig.cap="Nachhaltigkeit als buzzword", echo=FALSE, out.width="100%"}
-knitr::include_graphics(here::here("_book", "images/sustainable.png"))
+knitr::include_graphics(here::here("images", "sustainable.png"))
 ```
 
 Wenn die Verwendung des Wortes «nachhaltig» weiterhin im selben Tempo wächst, werden im Jahr 2109 alle Sätze nur noch aus dem Wort nachhaltig bestehen (\@ref(fig:sustainable))– klar diese Rechnung ist nonsense und doch hat es etwas: Immer mehr Menschen sprechen von Nachhaltigkeit, die Wissenschaft liefert seit nun mehr 50 Jahren, seit dem Club of Rome 1972, Erkenntnisse, dass unsere Art zu produzieren und konsumieren nicht zukunftsfähig ist, nicht für die Umwelt, aber auch nicht für uns Menschen als Gesellschaft – doch dieses Wissen alleine führt eben nicht automatisch zur Veränderung – wie wir heute mehr den je feststellen müssen:  
@@ -27,7 +27,7 @@ Um zurück auf das Beispiel mit dem Thunfisch zu kommen – heute wird selbst ei
 
 So müssen wir uns erst einmal darüber verständigen, was sich hinter dem Begriff «Nachhaltigkeit» oder «nachhaltige Entwicklung» konkret verbirgt. Es wird auch vom Leitbild der Nachhaltigkeit oder dem Konzept einer nachhaltigen Entwicklung gesprochen. 
 
-::: {.defbox .caution data-latex="{caution}"}
+::: {.defbox data-latex=""}
 Die wichtigsten Vorläufer des Leitbilds einer Nachhaltigen Entwicklung werden wir uns im Detail anschauen:
 
 - Beginn der Diskussion um Nachhaltigkeit: Carlowitz` Waldbewirtschaftungsprinzip 1713 
@@ -59,7 +59,7 @@ Ihrem Ursprung nach ist Nachhaltigkeit ein ressourcenökonomisches Prinzip, das 
 > --- Meadows et al. (1972), S. 17
 
 ```{r clubofrome, fig.align='center', fig.cap="Computersimulation - Club of Rome", echo=FALSE, out.width="100%"}
-knitr::include_graphics(here::here("_book", "images/clubofrome.png"))
+knitr::include_graphics(here::here("images", "clubofrome.png"))
 ```
 
 Mit der Gründung und Veröffentlichung des Club of Rome und dem Report “Limits to growth” (1972) hat sich die Bedeutung des Begriffs Nachhaltigkeit erheblich erweitert. Wissenschaftler*innen fordern einen globalen Gleichgewichtszustand (Homöostase), der nur durch weltweite Maßnahmen erreicht werden kann. Sie integrieren gezielt ökonomische, ökologische und soziale Aspekte der Nachhaltigkeit und nutzen das Modell der Dynamik komplexer Systeme (Systems Dynamics) für eine homogene Welt. Dabei werden die Wechselwirkungen zwischen Bevölkerungsdichte, Nahrungsmittelressourcen, Energie, Material, Kapital und Umweltzerstörung sowie Landnutzung berücksichtigt. Durch Computersimulation wurden verschiedene Szenarien entwickelt, wobei die Ergebnisse stets ähnlich waren: ein katastrophaler Rückgang der Weltbevölkerung und des Lebensstandards innerhalb von 50 bis 100 Jahren, wenn die aktuellen Trends fortgesetzt werden. Das Problem der ressourcen- und emissionsintensiven Industriegesellschaft besteht darin, dass das Wachstum nicht linear, sondern exponentiell verläuft. Langfristig führt diese Art des Wachstums zum Tod. Meadows argumentiert, dass nur eine Kurskorrektur einen ökologischen Kollaps verhindern kann. 
@@ -72,7 +72,7 @@ Ein Jahr nach dem Erscheinens des Bericht zu den Grenzen des Wachstums publizier
 Die Zunahme von Umweltbelastungen, etwa durch Luftschadstoffe oder im Bereich der Gewässerverschmutzung, trug dazu bei, dass Umweltaspekten grösseres Gewicht in Politik und Medien beigemessen wurde (u.a. Gründung Greenpeace 1971). In den 60er und 70er Jahren untersuchte bspw. Paul Crutzen den Einfluss von Stickoxiden auf die Ozonschicht - und sagte mit seinem Forschendenteam voraus, dass diese Schicht durch vom Menschen entwickelte FCKW stark reduziert werden würde. Die Verwendung von FCKW in Kühlschränken und Klimaanlagen wurde auch daraufhin verboten. Die Vereinten Nationen reagierten auf die wachsende Bedeutung der ökologischen Fragen mit der 1972 in Stockholm veranstalteten ersten grossen Umweltkonferenz. Im Nachgang zur Stockholmer Umweltkonferenz entstand das Umweltprogramm der Vereinten Nationen (UNEP). In der Folge dieser Konferenz wurden in zahlreichen Staaten eigenständige Umweltministerien geschaffen.  
 
 ```{r chwaldsterben, fig.align='center', fig.cap="Schweiz: Waldsterbedebatte, Seenverunreinigung etc. oder auch Tschernobyl (1986)", echo=FALSE, out.width="100%"}
-knitr::include_graphics(here::here("_book", "images/CHwaldsterben.png"))
+knitr::include_graphics(here::here("images", "CHwaldsterben.png"))
 ```
 
 Parallel zu den aufkommenden Umweltproblemen in den 1970er Jahren und 1980er Jahren gab es auch die ersten «Entwicklungskrisen» nach dem Zweiten Weltkrieg. Damals wurde noch unterentwickelten Ländern gesprochen. Man ging ja eigentlich davon aus, nach dem Zweiten Weltkrieg und als der Marshallplan zur Wiederaufbau Europas ja recht erfolgreich war, dass solche Pläne wie der Marshallplan, ein Marshallplan für Afrika, dazu führen würde, dass die armen Länder des Südens sich relativ zügig sozioökonomisch Nachholende entwickeln könnten. Und da wurde man in den 70er, 80er Jahren enttäuscht. Man hat gesehen, dass sogar die vorbildlichen Länder wie Mexiko und Brasilien in eine Verschuldungskrise gerieten und dass diese sozioökonomische nachholende Entwicklung und Überwindung von Armut doch nicht so einfach vor sich geht. 
@@ -84,7 +84,7 @@ Gro Harlem berief 22 Kommissionsmitglieder in die Kommission, ¾ davon stammen a
 
 Der Hauptbefund des Berichts war, dass globale Umweltprobleme hauptsächlich auf nicht-nachhaltige Konsum- und Produktionsmuster im Norden und großer Armut im Süden zurückzuführen sind. Der Raubbau an der Natur und der Abbau natürlicher Ressourcen führen zu steigender Ungleichheit (Einkommen und Vermögen), zunehmender absoluter Armut und einer Bedrohung für Frieden und Sicherheit. Vor diesem Hintergrund ist es wichtig, eine Definition von Nachhaltigkeit zu entwickeln, die gerechtigkeitsorientiert ist. 
 
-::: {.defbox .caution data-latex="{caution}"}
+::: {.defbox data-latex=""}
 „Nachhaltige Entwicklung ist eine Entwicklung, welche die Bedürfnisse gegenwärtiger Generationen befriedigt, ohne zu riskieren, dass künftige Generationen ihre Bedürfnisse nicht befriedigen können.“ (S. 46)
 :::
 
@@ -93,7 +93,7 @@ Mit dieser Definition brachte die Kommission explizit eine ethische Perspektive 
 
 2. Die intragenerationelle Perspektive, die sich auf die Verantwortung für die gegenwärtig lebenden Menschen bezieht, insbesondere für die armen Staaten und als Ausgleich innerhalb der Staaten.
 
-::: {.defbox .caution data-latex="{caution}"}
+::: {.defbox data-latex=""}
 Unterschied Nachhaltige Entwicklung und Nachhaltigkeit:
 Nachhaltigkeit verweist auf einen Zustand, Statik und Beständigkeit; nachhaltige Entwicklung impliziert Bewegung, Dynamik, das Prozesshafte sowie das Werdende und Entstehende.
 :::
@@ -101,7 +101,7 @@ Nachhaltigkeit verweist auf einen Zustand, Statik und Beständigkeit; nachhaltig
 ## Von Rio 1992 bis heute
 Hatte Brundlandt Bericht /Our Common Future auf dringenden Handlungsbedarf in internationalem Rahmen hingewiesen, ging es nun darum, Forderungen und Vorschläge in verbindliche Verträge und Konventionen zu überführen. Als Instrument wählte die UNO hierfür eine Konferenz – exakt 20 Jahre nach der ersten weltweiten Umweltkonferenz 1972 in Stockholm. Bis damals grösste internationale Konferenz mit Delegierten aus über 170 Nationen.
 
-::: {.factbox .caution data-latex="{caution}"}
+::: {.factbox data-latex=""}
 Die fünf verabschiedeten Dokumente der Rio-Konferenz sind: 
 
 • *Walddeklaration*, die auf die okologische Bewirtschaftung und den Schutz der 

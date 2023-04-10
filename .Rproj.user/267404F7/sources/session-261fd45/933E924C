@@ -3,7 +3,7 @@
     "path": "~/GitHub/scriptbsc_de/03-handlungsfelder.Rmd",
     "project_path": "03-handlungsfelder.Rmd",
     "type": "r_markdown",
-    "hash": "1239536977",
+    "hash": "649197541",
     "contents": "",
     "dirty": false,
     "created": 1681053474974.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "43,55",
-        "scrollLine": "41"
+        "cursorPosition": "103,10",
+        "scrollLine": "95"
     },
     "folds": "",
-    "lastKnownWriteTime": 1681114663,
+    "lastKnownWriteTime": 1681119486,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1681114663978,
+    "last_content_update": 1681119486575,
     "read_only": false,
     "read_only_alternatives": []
 }
