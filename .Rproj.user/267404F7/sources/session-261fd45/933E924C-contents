@@ -9,7 +9,7 @@ description: "Script Einführung Herausforderung NE -Bachelor Minor in NE"
 output: bookdown::gitbook
 
 ---
-# Verständnisse und Konzepte Nachhaltiger Entwicklung [#verständnisse_konzepte]
+# Verständnisse und Konzepte Nachhaltiger Entwicklung {#verständnisse_konzepte}
 
 Woher kommen das Konzept, das Leitbild und die Handlungsprinzipien der Nachhaltigkeit? Wie ist das Konzept entstanden, wie hat es sich entwickelt – und warum? Die folgenden Ausführungen geben einen Überblick über die Geschichte der Nachhaltigkeit, politische Hintergründe, wichtige Konferenzen und Dokumente. Kurzum, wir zeigen, was Nachhaltigkeit zu dem gemacht hat, was es heute ist. Es geht darum, den Wald hinter den Bäumen zu sehen. Denn nur wer die Vergangenheit kennt, kann die Zukunft einschätzen.
 
@@ -41,7 +41,7 @@ Die wichtigsten Vorläufer des Leitbilds einer Nachhaltigen Entwicklung werden w
 - Agenda 2030 mit den Nachhaltigkeitszielen (SDG) 
 :::
 
-## Beginn der Diskussion um Nachhaltigkeit [#carlowitz]
+## Beginn der Diskussion um Nachhaltigkeit {#carlowitz}
 Der sächsische Oberberghauptmann Hans Carl von Carlowitz veröffentlichte im Jahr 1713 das Buch "Sylvicultura oeconomica, oder hauswirthliche Nachricht und Naturmäßige Anweisung zur wilden Baum-Zucht". In diesem Buch zeigt er die Notwendigkeit und Möglichkeit einer "nachhaltenden Forstwirtschaft" auf. Anna Amalia, die Mutter von Herzog Carl August, ist maßgeblich dafür verantwortlich, dass wir heute den Anspruch an Nachhaltigkeit haben. Sie initiierte die erste Forstreform der Welt, um Holz dauerhaft und mit stetigem Ertrag zur Verfügung zu stellen. Damals hatte Europa eine unkontrollierte Gier nach der "Materia Prima", sei es für den Schiff- oder Hausbau, zum Kochen oder Heizen. Dadurch drohte die Ressource erschöpft zu werden und nur das kurzfristige Überleben zu sichern, aber nicht das langfristige. 
 
 Im 18. Jahrhundert beschäftigten sich Gelehrte nicht nur in Deutschland, sondern in ganz Europa mit der Endlichkeit natürlicher Ressourcen. Im Gegensatz zu von Carlowitz wurde dabei jedoch nicht von Nachhaltigkeit gesprochen. Ein wichtiger Aspekt war die Versorgung der wachsenden Bevölkerung mit Lebensmitteln. Vor der Industrialisierung war der Produktionsfaktor Natur der entscheidende Faktor für das Wirtschaftswachstum, wie beispielsweise die Anzahl der Bergwerke oder gebauten Schiffe, oder der Boden für die Produktion von Nahrungsmitteln. Thomas Robert Malthus, ein britischer Ökonom, warnte aufgrund des seit der Industriellen Revolution starken Bevölkerungswachstums, dass die Produktion von Lebensmitteln künftig nicht mit der Bevölkerungszunahme Schritt halten könne. Malthus These besagte, dass sich die Bevölkerung mit geometrischen Wachstumsraten vermehren würde, während die Produktion von Lebensmitteln nur linear wachsen würde. Obwohl Malthus These nicht eintritt, gelten seine Arbeiten häufig als erstmalige systematische Abhandlung über die Wachstumsgrenzen in einer endlichen Welt. 

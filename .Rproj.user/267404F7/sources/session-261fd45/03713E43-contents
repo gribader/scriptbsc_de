@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 1</title>
+  <meta name="description" content="Script Einführung Herausforderung NE -Bachelor Minor in NE" />
+  <meta name="generator" content="bookdown #bookdown:version# and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 1" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Script Einführung Herausforderung NE -Bachelor Minor in NE" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 1" />
+  
+  <meta name="twitter:description" content="Script Einführung Herausforderung NE -Bachelor Minor in NE" />
+  
+
+<meta name="author" content="Christoph Bader" />
+
+
+<meta name="date" content="2023-04-10" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+<!--bookdown:title:start-->
+<div id="header">
+<h1 class="title">Chapter 1</h1>
+<p class="author"><em>Christoph Bader</em></p>
+<p class="date"><em>2023-04-10</em></p>
+</div>
+<!--bookdown:title:end-->
+
+<!--bookdown:toc:start-->
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+<!--bookdown:toc2:start-->
+<ul>
+<li><a href="#about" id="toc-about"><span class="toc-section-number">1</span> About</a>
+<ul>
+<li><a href="#gebrauch" id="toc-gebrauch"><span class="toc-section-number">1.1</span> Gebrauch</a></li>
+<li><a href="#selbsttest" id="toc-selbsttest"><span class="toc-section-number">1.2</span> Selbsttest</a></li>
+</ul></li>
+<li><a href="#einleitung" id="toc-einleitung"><span class="toc-section-number">2</span> Einleitung</a>
+<ul>
+<li><a href="#leere-und-volle-welt" id="toc-leere-und-volle-welt"><span class="toc-section-number">2.1</span> Leere und volle Welt</a></li>
+</ul></li>
+<li><a href="#Teil1" id="toc-Teil1"><span class="toc-section-number">3</span> Die Herausforderungen des 21. Jahrhunderts für eine nachhaltige Entwicklung erfassen und verstehen lernen</a>
+<ul>
+<li><a href="#beschleunigung" id="toc-beschleunigung"><span class="toc-section-number">3.1</span> Die grosse Beschleunigung</a></li>
+<li><a href="#symptome_ursachen" id="toc-symptome_ursachen"><span class="toc-section-number">3.2</span> Symptome und Ursachen</a></li>
+</ul></li>
+<li><a href="#verständnisse_konzepte" id="toc-verständnisse_konzepte"><span class="toc-section-number">4</span> Verständnisse und Konzepte Nachhaltiger Entwicklung</a>
+<ul>
+<li><a href="#carlowitz" id="toc-carlowitz"><span class="toc-section-number">4.1</span> Beginn der Diskussion um Nachhaltigkeit</a></li>
+<li><a href="#zusammenprall-von-ökonomie-und-ökologie" id="toc-zusammenprall-von-ökonomie-und-ökologie"><span class="toc-section-number">4.2</span> Zusammenprall von Ökonomie und Ökologie</a></li>
+<li><a href="#grenzen-des-wachstums" id="toc-grenzen-des-wachstums"><span class="toc-section-number">4.3</span> Grenzen des Wachstums</a></li>
+<li><a href="#von-der-entwicklungs--zur-nachhaltigkeitsdebatte" id="toc-von-der-entwicklungs--zur-nachhaltigkeitsdebatte"><span class="toc-section-number">4.4</span> Von der Entwicklungs- zur Nachhaltigkeitsdebatte</a></li>
+<li><a href="#brundland-kommission" id="toc-brundland-kommission"><span class="toc-section-number">4.5</span> Brundland-Kommission</a></li>
+<li><a href="#von-rio-1992-bis-heute" id="toc-von-rio-1992-bis-heute"><span class="toc-section-number">4.6</span> Von Rio 1992 bis heute</a></li>
+</ul></li>
+<li><a href="#footnotes-and-citations" id="toc-footnotes-and-citations"><span class="toc-section-number">5</span> Footnotes and citations</a>
+<ul>
+<li><a href="#footnotes" id="toc-footnotes"><span class="toc-section-number">5.1</span> Footnotes</a></li>
+<li><a href="#citations" id="toc-citations"><span class="toc-section-number">5.2</span> Citations</a></li>
+</ul></li>
+<li><a href="#references" id="toc-references">References</a></li>
+</ul>
+<!--bookdown:toc2:end-->
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Chapter 1</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<!--bookdown:toc:end-->
+<!--bookdown:body:start-->
+<div id="about" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span> About<a href="#about" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Herzlich willkommen zum Skript zur Vorlesung <em>Einführung Herausforderung für eine Nachhaltige Entwicklung</em>. Das Skript ist als Ergänzung zur Vorlesung gedacht und soll Ihnen helfen, die Inhalte besser zu verstehen und zu vertiefen.</p>
+<div id="gebrauch" class="section level2 hasAnchor" number="1.1">
+<h2 class="hasAnchor"><span class="header-section-number">1.1</span> Gebrauch<a href="#gebrauch" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Die Vorlesung <em>Einführung Herausforderung für eine Nachhaltige Entwicklung</em> behandelt das Thema [hier das Thema der Vorlesung einfügen]. Dabei werden wir uns mit [hier kurz die Themenbereiche der Vorlesung aufzählen] beschäftigen. Die Vorlesung ist darauf ausgelegt, Ihnen ein grundlegendes Verständnis für [hier den Zweck oder die Anwendungsbereiche des Themas einfügen] zu vermitteln.</p>
+</div>
+<div id="selbsttest" class="section level2 hasAnchor" number="1.2">
+<h2 class="hasAnchor"><span class="header-section-number">1.2</span> Selbsttest<a href="#selbsttest" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Wir haben für Sie einen Selbsttest zur Grundlagenvorlesung Nachhaltige Entwicklung zusammengestellt. Diesen können Sie innerhalb der ILIAS-Umgebung der Universität Bern absolvieren:
+www.ilias.unibe.ch</p>
+<!--chapter:end:index.Rmd-->
+</div>
+</div>
+<div id="einleitung" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span> Einleitung<a href="#einleitung" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div class="figure" style="text-align: center">
+<img src="_book/images/wrappedglobe.PNG" alt="Wrapped globe: Christo 2020 (links) und Christo 1989 (rechts)" width="100%" />
+<p class="caption">
+(#fig:wrappedglobe)Wrapped globe: Christo 2020 (links) und Christo 1989 (rechts)
+</p>
+</div>
+<p>In einer Zeit, in der die Herausforderungen für eine Nachhaltige Entwicklung immer drängender werden, bietet das Kunstwerk “Wrapped Globe” von Christo und seiner Jeanne-Claude eine eindrucksvolle symbolische Darstellung der Verantwortung der Menschheit gegenüber unserer Erde und ihre Ressourcen. Das Kunstwerk besteht aus einer transparenten Plastikhülle und einem filigranen Netz, das den Globus umhüllt und illustriert, dass sich die Welt gegenwärtig einer Vielfackrise konfrontiert sieht: multidimensionaler ökologischer Zusammenbruch, steigende Ungleichheit, übermässige Verschuldung, nicht zuletzt die Covid-19-Pandemie und, neben anderen Kriegsflüchtlingsströmen, der russische Angriffskrieg mit seinen Auswirkungen. Der Begriff Vielfachkrise verdeutlicht nach Adam Tooze, wie die globalen Krisen miteinander verbunden sind, sich gegenseitig verschlingen und verschärfen (Zitat). Die Ursachen dieser miteinander verbundenen Krisen sind unter anderem vergangene und fortgesetzte Ungerechtigkeiten zwischen und innerhalb von Ländern, ein Teufelskreis der immer stärkeren Konzentration von wirtschaftlicher und politischer Macht sowie eine Fixierung und strukturelle Abhängigkeit vom BIP-Wachstum (Hickel et al. 2022, Oxfam &amp; EEB 2021). Dennoch streben Gesellschaft und Wirtschaft nach wie vor nach BIP-Wachstum, um Arbeitsplätze zu erhalten und zu schaffen, die sozialen Sicherungssysteme zu finanzieren, Steuereinnahmen zu sichern und wachstumsabhängige Unternehmen und Branchen zu befriedigen. Diese Erwartungen sind zunehmend unrealistisch, und es gibt keine empirischen Belege dafür, dass eine Entkopplung von Wirtschaftswachstum und Ressourcenverbrauch auch nur annähernd das Ausmass erreicht, das erforderlich wäre, um den multidimensionalen ökologischen Zusammenbruch zu stoppen (Parrique et al., 2019; Hickel und Kallis, 2020; Wiedmann et al., 2020).</p>
+<div id="leere-und-volle-welt" class="section level2 hasAnchor" number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span> Leere und volle Welt<a href="#leere-und-volle-welt" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Die transparente Hülle und das Netz, die den Globus umgeben, repräsentieren also die Vernetzung und Abhängigkeit der verschiedenen Elemente der Erde und verdeutlichen die Notwendigkeit der Pflege und Erhaltung dieser Beziehungen. In diesem Zusammenhang gewinnt das Konzept der leeren und vollen Welt von Herman Daly an Bedeutung (cite). Die leere Welt beschreibt eine Situation, in der menschliche Aktivitäten und Ressourcennutzung nur einen geringen Einfluss auf die Umwelt haben. In dieser Welt sind die natürlichen Systeme noch intakt und unberührt, und die Ressourcen sind ausreichend, um die Bedürfnisse der Menschen zu erfüllen. Im Gegensatz dazu steht die volle Welt, in der menschliche Aktivitäten und Ressourcennutzung das Ökosystem überlasten und die Umwelt belasten. Spätestens seit dem 2. Weltkrieg sind wir auf einem industriegesellschaftlichen und wachstumswirtschaftlichen Pfad, so dass wir heute in einer «vollen» Welt leben und die natürlichen Ressourcen knapp sowie das Gleichgewicht der Ökosystem gefährdet sind.</p>
+<p>Um diese unheilvolle Entwicklung umzukehren, gibt es keinen Masterplan. Dazu müssen wir Ursachen der Krankheitsymptome wie Biodiverstiätsverlust oder Klimaerwärmung analysieren, sie miteinander verknüpfen und ihre Wechselwirkungen verstehen lernen. So werden wir uns mit aktuellen Problemen und Herausforderungen befassen, wie Klimawandel, Umweltverschmutzung, soziale Ungleichheit und wirtschaftliche Disparitäten, um zu verstehen, wie sie sowohl auf lokaler als auch auf globaler Ebene angegangen werden können.</p>
+<p>Unser Ziel in diesem Lehrbuch ist es, die Leser dazu zu ermutigen, kritisch über die Rolle von Individuen, Gemeinschaften, Unternehmen und Regierungen im Kontext der nachhaltigen Entwicklung nachzudenken. Darüber hinaus wollen wir, insbesondere in den Masterstudienprogrammen, Zukunftsbilder entwickeln, die Lebensqualität in einer nachhaltigen Moderne vorstellbar machen und mit den Entwürfen einer anderen Mobilität, einer anderen Ernährungskultur, eines anderen Bauens und Wohnens die Veränderung der Gegenwart attraktiv und nicht abschreckend erscheinen lassen. Die Einbindung von Stakeholdern und die Förderung der Zusammenarbeit zwischen verschiedenen Sektoren und Disziplinen sind entscheidend, um Fortschritte in Richtung Nachhaltigkeit zu erzielen. Im Laufe dieses Lehrbuchs werden wir auch die Bedeutung von Bildung, Kommunikation und Partizipation in der Gestaltung einer nachhaltigeren Zukunft hervorheben.</p>
+<p>Mit dem Wrapped Globe im Hinterkopf und dem Verständnis der leeren und vollen Welt von Herman Daly als Grundlage, werden wir uns auf eine Reise durch die vielfältigen Aspekte der nachhaltigen Entwicklung begeben. Wir hoffen, dass diese Reise sowohl informativ als auch inspirierend sein wird und dazu beiträgt, ein tieferes Verständnis für die Dringlichkeit und die Möglichkeiten der nachhaltigen Entwicklung zu schaffen.</p>
+<p>Schliesslich hoffen wir, dass dieses Lehrbuch die Leser dazu inspiriert, über ihre eigene Rolle und Verantwortung im Kontext der Nachhaltigkeit nachzudenken und dazu beizutragen, dass die Erde auch für zukünftige Generationen ein lebenswerter Ort bleibt. Denn nur gemeinsam können wir den Wandel bewirken, der notwendig ist, um eine nachhaltige, gerechte und umweltfreundliche Welt zu schaffen.</p>
+<!--chapter:end:01-intro.Rmd-->
+</div>
+</div>
+<div id="Teil1" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span> Die Herausforderungen des 21. Jahrhunderts für eine nachhaltige Entwicklung erfassen und verstehen lernen<a href="#Teil1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Cross-references make it easier for your readers to find and link to elements in your book.</p>
+<div id="beschleunigung" class="section level2 hasAnchor" number="3.1">
+<h2 class="hasAnchor"><span class="header-section-number">3.1</span> Die grosse Beschleunigung<a href="#beschleunigung" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="symptome_ursachen" class="section level2 hasAnchor" number="3.2">
+<h2 class="hasAnchor"><span class="header-section-number">3.2</span> Symptome und Ursachen<a href="#symptome_ursachen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:02-concepts.Rmd-->
+</div>
+</div>
+<div id="verständnisse_konzepte" class="section level1 hasAnchor" number="4">
+<h1 class="hasAnchor"><span class="header-section-number">4</span> Verständnisse und Konzepte Nachhaltiger Entwicklung<a href="#verständnisse_konzepte" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Woher kommen das Konzept, das Leitbild und die Handlungsprinzipien der Nachhaltigkeit? Wie ist das Konzept entstanden, wie hat es sich entwickelt – und warum? Die folgenden Ausführungen geben einen Überblick über die Geschichte der Nachhaltigkeit, politische Hintergründe, wichtige Konferenzen und Dokumente. Kurzum, wir zeigen, was Nachhaltigkeit zu dem gemacht hat, was es heute ist. Es geht darum, den Wald hinter den Bäumen zu sehen. Denn nur wer die Vergangenheit kennt, kann die Zukunft einschätzen.</p>
+<p>Ob in der Wissenschaft, Politik, Wirtschaft oder den Medien – Nachhaltigkeit ist das Schlagwort der letzten Jahre. Der Begriff ist zunächst positiv besetzt und wird mit Langfristigkeit und Dauerhaftigkeit assoziiert. Heutzutage erscheint vieles als nachhaltig: der Kaffee, die Firmenphilosophie, selbst die Thunfischpizza. Und diesen Anspruch erhebt ausgerechnet eine Konsumgesellschaft, die rücksichtslos im Überfluss badet. Gleich am Morgen geht es los: Das Shampoo entfernt unsere Schuppen „nachhaltig“. Dann fahren wir zur Arbeit in die Firma, die für eine „nachhaltige Unternehmensphilosophie“ steht, am Mittagstisch philosophieren wir über nachhaltige Geldanlagen. Wieder zu Hause, schieben wir eine Thunfischpizza in den Ofen – laut Verpackung – aus „nachhaltiger Erzeugung“, versteht sich.</p>
+<p>Heute wird Nachhaltigkeit in Zusammenhang mit Energie, Mobilität, Gebäudesanierung, Ernährung, Bevölkerungsentwicklung, betrieblichem Umweltmanagement und Klimaschutz verwendet, ebenso wie in Kunst, Kultur, Design und Werbung.</p>
+<div class="figure" style="text-align: center">
+<img src="_book/images/sustainable.PNG" alt="Nachhaltigkeit als buzzword" width="100%" />
+<p class="caption">
+(#fig:sustainable)Nachhaltigkeit als buzzword
+</p>
+</div>
+<p>Wenn die Verwendung des Wortes «nachhaltig» weiterhin im selben Tempo wächst, werden im Jahr 2109 alle Sätze nur noch aus dem Wort nachhaltig bestehen (@ref(fig:sustainable))– klar diese Rechnung ist nonsense und doch hat es etwas: Immer mehr Menschen sprechen von Nachhaltigkeit, die Wissenschaft liefert seit nun mehr 50 Jahren, seit dem Club of Rome 1972, Erkenntnisse, dass unsere Art zu produzieren und konsumieren nicht zukunftsfähig ist, nicht für die Umwelt, aber auch nicht für uns Menschen als Gesellschaft – doch dieses Wissen alleine führt eben nicht automatisch zur Veränderung – wie wir heute mehr den je feststellen müssen:</p>
+<p>Um zurück auf das Beispiel mit dem Thunfisch zu kommen – heute wird selbst ein Fisch der vom Aussterben bedroht ist, nachhaltig gefangen.</p>
+<p>So müssen wir uns erst einmal darüber verständigen, was sich hinter dem Begriff «Nachhaltigkeit» oder «nachhaltige Entwicklung» konkret verbirgt. Es wird auch vom Leitbild der Nachhaltigkeit oder dem Konzept einer nachhaltigen Entwicklung gesprochen.</p>
+<div class="defbox caution">
+<p>Die wichtigsten Vorläufer des Leitbilds einer Nachhaltigen Entwicklung werden wir uns im Detail anschauen:</p>
+<ul>
+<li>Beginn der Diskussion um Nachhaltigkeit: Carlowitz` Waldbewirtschaftungsprinzip 1713</li>
+<li>Zusammenprall von Ökonomie und Ökologie @ref(carlowitz)</li>
+<li>Erste und zweite UN-Dekade für Entwicklung</li>
+<li>Grenzen des Wachstums 1972</li>
+<li>Brundtland-Bericht 1987</li>
+<li>Rio Gipfel 1992</li>
+<li>Agenda 21</li>
+<li>Milleniumsziele der UN (MDG)</li>
+<li>Agenda 2030 mit den Nachhaltigkeitszielen (SDG)</li>
+</ul>
+</div>
+<div id="carlowitz" class="section level2 hasAnchor" number="4.1">
+<h2 class="hasAnchor"><span class="header-section-number">4.1</span> Beginn der Diskussion um Nachhaltigkeit<a href="#carlowitz" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Der sächsische Oberberghauptmann Hans Carl von Carlowitz veröffentlichte im Jahr 1713 das Buch “Sylvicultura oeconomica, oder hauswirthliche Nachricht und Naturmäßige Anweisung zur wilden Baum-Zucht”. In diesem Buch zeigt er die Notwendigkeit und Möglichkeit einer “nachhaltenden Forstwirtschaft” auf. Anna Amalia, die Mutter von Herzog Carl August, ist maßgeblich dafür verantwortlich, dass wir heute den Anspruch an Nachhaltigkeit haben. Sie initiierte die erste Forstreform der Welt, um Holz dauerhaft und mit stetigem Ertrag zur Verfügung zu stellen. Damals hatte Europa eine unkontrollierte Gier nach der “Materia Prima”, sei es für den Schiff- oder Hausbau, zum Kochen oder Heizen. Dadurch drohte die Ressource erschöpft zu werden und nur das kurzfristige Überleben zu sichern, aber nicht das langfristige.</p>
+<p>Im 18. Jahrhundert beschäftigten sich Gelehrte nicht nur in Deutschland, sondern in ganz Europa mit der Endlichkeit natürlicher Ressourcen. Im Gegensatz zu von Carlowitz wurde dabei jedoch nicht von Nachhaltigkeit gesprochen. Ein wichtiger Aspekt war die Versorgung der wachsenden Bevölkerung mit Lebensmitteln. Vor der Industrialisierung war der Produktionsfaktor Natur der entscheidende Faktor für das Wirtschaftswachstum, wie beispielsweise die Anzahl der Bergwerke oder gebauten Schiffe, oder der Boden für die Produktion von Nahrungsmitteln. Thomas Robert Malthus, ein britischer Ökonom, warnte aufgrund des seit der Industriellen Revolution starken Bevölkerungswachstums, dass die Produktion von Lebensmitteln künftig nicht mit der Bevölkerungszunahme Schritt halten könne. Malthus These besagte, dass sich die Bevölkerung mit geometrischen Wachstumsraten vermehren würde, während die Produktion von Lebensmitteln nur linear wachsen würde. Obwohl Malthus These nicht eintritt, gelten seine Arbeiten häufig als erstmalige systematische Abhandlung über die Wachstumsgrenzen in einer endlichen Welt.</p>
+<p>Malthus Überlegungen gerieten lange Zeit in Vergessenheit, da durch die industrielle Revolution und die Ausbreitung der kapitalistischen Produktionsweise ein unbegrenztes Wachstum möglich schien und natürliche Grenzen bis Mitte des 20. Jahrhunderts kaum mehr thematisiert wurden. Jedoch fand ein neo-malthusianisches Verständnis in Berichten an den 1968 gegründeten Club of Rome, der Debatte um Planetare Grenzen oder auch in Wachstumskritischen Debatten Verbreitung. Obwohl sich der Malthusianismus in der Regel auf äußere, physische Grenzen des Wachstums bezieht, geht es Kallis vor allem darum, persönliche Mäßigung und freiwillige Zurückhaltung als eine weise Lebensauffassung darzustellen, die tiefe Wurzeln in der Romantik und der antiken griechischen Philosophie hat. Kallis plädiert für eine innere Begrenzung unserer Wünsche, um uns von der in der Wirtschaft vorherrschenden Annahme der Knappheit und der damit einhergehenden Besessenheit vom Wachstum zu befreien. Die Realität äußerer Grenzen darf nicht geleugnet, jedoch nicht als Hauptargument der Umweltschützer gegen grenzenloses Wachstum verdrängt werden. Kallis fragt deshalb, ob es sinnvoll ist, den Klimawandel als ein Problem externer Grenzen, der Knappheit oder einer begrenzten Atmosphäre, die nicht mehr von unseren Emissionen aufnehmen kann, darzustellen.</p>
+<p>Die Logik, die auf Malthus zurückgeht, ist, mehr zu produzieren, um einer Welt der Grenzen zu begegnen. Solange wir so denken, besteht die natürliche Reaktion darin, zu überlegen, wie wir diese Grenzen überschreiten können, wie wir das Klima so gestalten können, dass es mehr von uns und unseren Wünschen aufnehmen kann.</p>
+</div>
+<div id="zusammenprall-von-ökonomie-und-ökologie" class="section level2 hasAnchor" number="4.2">
+<h2 class="hasAnchor"><span class="header-section-number">4.2</span> Zusammenprall von Ökonomie und Ökologie<a href="#zusammenprall-von-ökonomie-und-ökologie" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Ihrem Ursprung nach ist Nachhaltigkeit ein ressourcenökonomisches Prinzip, das das ökonomische Ziel der maximalen dauerhaften Nutzung des Waldes mit den ökologischen Bedingungen des Nachwachsens kombinierte. Im 19. Jahrhundert entwickelte der deutsche Forstwissenschaftler und Ökonom Max von Cramer-Klett die Reinertragslehre, die besagt, dass der Ertrag aus einem Wald durch den Verkauf von Holz maximiert werden sollte, indem man nur die ältesten und größten Bäume fällt und somit den Wald langfristig und nachhaltig nutzt. Die Theorie hatte großen Einfluss auf die Forstwirtschaft in Deutschland und Europa. Die Reinertragslehre beendete den gemäßigten Holzeinschlag abrupt und die neue Lehre war allein auf die höchstmögliche Verzinsung des investierten Kapitals im Wald ausgerichtet. Der Fokus lag plötzlich auf dem höchstmöglichen direkten Geldertrag anstelle eines stetigen hohen Holzertrags. Statt der Produktivität der Natur war nun der freie Markt und das Gesetz von Angebot und Nachfrage ausschlaggebend. Das neue Credo in Wirtschaft und Gesellschaft war die Gewinnmaximierung und nicht mehr die Naturgesetzmäßigkeit. Die Zyklen der Natur traten zurück und wurden durch die Dynamik des Kapitalismus ersetzt, wobei der Tauschwert vor dem Gebrauchswert stand. Dadurch wurde das Handlungsprinzip Nachhaltigkeit entwertet und es dauerte über hundert Jahre bis in die 1960er und 70er Jahre hinein, bis die wissenschaftlichen Disziplinen Ökologie und Nachhaltigkeit wieder Beachtung fanden.</p>
+</div>
+<div id="grenzen-des-wachstums" class="section level2 hasAnchor" number="4.3">
+<h2 class="hasAnchor"><span class="header-section-number">4.3</span> Grenzen des Wachstums<a href="#grenzen-des-wachstums" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<blockquote>
+<p>“Wenn die gegenwärtige Zunahme der Weltbevölkerung, der Industrialisierung, der Umweltverschmutzung, der Nahrungsmittelproduktion und der Ausbeutung von natürlichen Rohstoffen unverändert anhält, werden die absoluten Wachstumsgrenzen auf der Erde im Laufe der nächsten hundert Jahre erreicht.”</p>
+<p>— Meadows et al. (1972), S. 17</p>
+</blockquote>
+<div class="figure" style="text-align: center">
+<img src="_book/images/clubofrome.PNG" alt="Computersimulation - Club of Rome" width="100%" />
+<p class="caption">
+(#fig:clubofrome)Computersimulation - Club of Rome
+</p>
+</div>
+<p>Mit der Gründung und Veröffentlichung des Club of Rome und dem Report “Limits to growth” (1972) hat sich die Bedeutung des Begriffs Nachhaltigkeit erheblich erweitert. Wissenschaftler*innen fordern einen globalen Gleichgewichtszustand (Homöostase), der nur durch weltweite Maßnahmen erreicht werden kann. Sie integrieren gezielt ökonomische, ökologische und soziale Aspekte der Nachhaltigkeit und nutzen das Modell der Dynamik komplexer Systeme (Systems Dynamics) für eine homogene Welt. Dabei werden die Wechselwirkungen zwischen Bevölkerungsdichte, Nahrungsmittelressourcen, Energie, Material, Kapital und Umweltzerstörung sowie Landnutzung berücksichtigt. Durch Computersimulation wurden verschiedene Szenarien entwickelt, wobei die Ergebnisse stets ähnlich waren: ein katastrophaler Rückgang der Weltbevölkerung und des Lebensstandards innerhalb von 50 bis 100 Jahren, wenn die aktuellen Trends fortgesetzt werden. Das Problem der ressourcen- und emissionsintensiven Industriegesellschaft besteht darin, dass das Wachstum nicht linear, sondern exponentiell verläuft. Langfristig führt diese Art des Wachstums zum Tod. Meadows argumentiert, dass nur eine Kurskorrektur einen ökologischen Kollaps verhindern kann.</p>
+<p>Der “Limits to Growth” Bericht wurde für seine Vorhersagen und Methoden stark kritisiert. Einige Kritiker:innen bemängelten, dass das Modell der Dynamik komplexer Systeme zu vereinfacht sei und wichtige Faktoren wie Technologie und Innovation nicht berücksichtigt wurden. Andere kritisierten, dass die Autor:innen die menschliche Anpassungsfähigkeit und die Möglichkeit von politischen Lösungen und Veränderungen nicht ausreichend einbezogen hätten. Einige warfen den Autor:innen auch vor, Malthusianer:innen zu sein und eine düstere und pessimistische Sichtweise auf die Zukunft zu haben. Trotz dieser Kritik hat der Bericht jedoch eine wichtige Debatte über Nachhaltigkeit und die Notwendigkeit von Umweltschutz angestoßen.</p>
+<p>Ein Jahr nach dem Erscheinens des Bericht zu den Grenzen des Wachstums publizierte E.F. Schumacher Small is Beautiful: Economics as if people mattered.</p>
+</div>
+<div id="von-der-entwicklungs--zur-nachhaltigkeitsdebatte" class="section level2 hasAnchor" number="4.4">
+<h2 class="hasAnchor"><span class="header-section-number">4.4</span> Von der Entwicklungs- zur Nachhaltigkeitsdebatte<a href="#von-der-entwicklungs--zur-nachhaltigkeitsdebatte" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Die Zunahme von Umweltbelastungen, etwa durch Luftschadstoffe oder im Bereich der Gewässerverschmutzung, trug dazu bei, dass Umweltaspekten grösseres Gewicht in Politik und Medien beigemessen wurde (u.a. Gründung Greenpeace 1971). In den 60er und 70er Jahren untersuchte bspw. Paul Crutzen den Einfluss von Stickoxiden auf die Ozonschicht - und sagte mit seinem Forschendenteam voraus, dass diese Schicht durch vom Menschen entwickelte FCKW stark reduziert werden würde. Die Verwendung von FCKW in Kühlschränken und Klimaanlagen wurde auch daraufhin verboten. Die Vereinten Nationen reagierten auf die wachsende Bedeutung der ökologischen Fragen mit der 1972 in Stockholm veranstalteten ersten grossen Umweltkonferenz. Im Nachgang zur Stockholmer Umweltkonferenz entstand das Umweltprogramm der Vereinten Nationen (UNEP). In der Folge dieser Konferenz wurden in zahlreichen Staaten eigenständige Umweltministerien geschaffen.</p>
+<div class="figure" style="text-align: center">
+<img src="_book/images/CHwaldsterben.PNG" alt="Schweiz: Waldsterbedebatte, Seenverunreinigung etc. oder auch Tschernobyl (1986)" width="100%" />
+<p class="caption">
+(#fig:chwaldsterben)Schweiz: Waldsterbedebatte, Seenverunreinigung etc. oder auch Tschernobyl (1986)
+</p>
+</div>
+<p>Parallel zu den aufkommenden Umweltproblemen in den 1970er Jahren und 1980er Jahren gab es auch die ersten «Entwicklungskrisen» nach dem Zweiten Weltkrieg. Damals wurde noch unterentwickelten Ländern gesprochen. Man ging ja eigentlich davon aus, nach dem Zweiten Weltkrieg und als der Marshallplan zur Wiederaufbau Europas ja recht erfolgreich war, dass solche Pläne wie der Marshallplan, ein Marshallplan für Afrika, dazu führen würde, dass die armen Länder des Südens sich relativ zügig sozioökonomisch Nachholende entwickeln könnten. Und da wurde man in den 70er, 80er Jahren enttäuscht. Man hat gesehen, dass sogar die vorbildlichen Länder wie Mexiko und Brasilien in eine Verschuldungskrise gerieten und dass diese sozioökonomische nachholende Entwicklung und Überwindung von Armut doch nicht so einfach vor sich geht.</p>
+<p>Ab diesem Zeitpunkt war klar, dass die Entwicklungsfrage und die Umweltfrage auf zwischenstaatlicher Ebene gemeinsam gedacht werden mussten. Die Vereinten Nationen reagierten darauf und setzten im Jahr 1983 eine Sachverständigenkommission für Umwelt und Entwicklung (World Commission on Environment and Development) unter dem Vorsitz der norwegischen Ministerpräsidentin Gro Harlem Brundtland ihre Arbeit auf.</p>
+</div>
+<div id="brundland-kommission" class="section level2 hasAnchor" number="4.5">
+<h2 class="hasAnchor"><span class="header-section-number">4.5</span> Brundland-Kommission<a href="#brundland-kommission" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Gro Harlem berief 22 Kommissionsmitglieder in die Kommission, ¾ davon stammen aus dem Globalen Süden. Hinzu kam, dass die Sowejtunion einen politischen Kurswechsel aufgrund der zunehmende wirtschaftliche Stagnation in den 1980er Jahren vornahm. Da das Wettrüsten mit den USA zu einem erheblichen Haushaltsdefizit beigetragen hatte, leitete der neue sowjetische Generalsekretär Michail Gorbatschow eine bedeutende Wende ein. Spätestens nach dieser Wende, konnte die Entstehung einer neuen Weltsicht, einem neuen globalen Bewusstsein beobachtet werden. So wurde die Kommission damit betraut einen Perspektivbericht zu langfristig tragfähiger, umweltschonender Entwicklung im Weltmassstab bis zum Jahr 2000 und darüber hinaus zu erarbeiten. Der offizielle Titel des 1987 vorgelegten Berichtes war „Our Common Future“, geläufiger aber ist die Benennung nach der Vorsitzenden, Gro Harlem Brundtland.</p>
+<p>Der Hauptbefund des Berichts war, dass globale Umweltprobleme hauptsächlich auf nicht-nachhaltige Konsum- und Produktionsmuster im Norden und großer Armut im Süden zurückzuführen sind. Der Raubbau an der Natur und der Abbau natürlicher Ressourcen führen zu steigender Ungleichheit (Einkommen und Vermögen), zunehmender absoluter Armut und einer Bedrohung für Frieden und Sicherheit. Vor diesem Hintergrund ist es wichtig, eine Definition von Nachhaltigkeit zu entwickeln, die gerechtigkeitsorientiert ist.</p>
+<div class="defbox caution">
+<p>„Nachhaltige Entwicklung ist eine Entwicklung, welche die Bedürfnisse gegenwärtiger Generationen befriedigt, ohne zu riskieren, dass künftige Generationen ihre Bedürfnisse nicht befriedigen können.“ (S. 46)</p>
+</div>
+<p>Mit dieser Definition brachte die Kommission explizit eine ethische Perspektive in die Nachhaltigkeitsdiskussion ein und stellte das Prinzip der Verantwortung in den Mittelpunkt, sowohl für heute als auch für zukünftig lebende Menschen. Menschliche Bedürfnisse sowohl der gegenwärtig lebenden Menschen als auch der künftigen Generationen sind in dieser Wendung zentral. Damit nahm die Brundtland-Kommission eine klar anthropozentrische Position ein. Die Brundtland-Kommission identifizierte drei wesentliche Grundprinzipien bei der Analyse von Problemen und Empfehlungen zur Handlung: die globale Perspektive, die Verbindung von Umwelt- und Entwicklungsaspekten und die Umsetzung von Gerechtigkeit. In Bezug auf Gerechtigkeit wurden zwei Perspektiven unterschieden:
+1. Die intergenerationelle Perspektive, die als Verantwortung für zukünftige Generationen verstanden wird.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Die intragenerationelle Perspektive, die sich auf die Verantwortung für die gegenwärtig lebenden Menschen bezieht, insbesondere für die armen Staaten und als Ausgleich innerhalb der Staaten.</li>
+</ol>
+<div class="defbox caution">
+<p>Unterschied Nachhaltige Entwicklung und Nachhaltigkeit:
+Nachhaltigkeit verweist auf einen Zustand, Statik und Beständigkeit; nachhaltige Entwicklung impliziert Bewegung, Dynamik, das Prozesshafte sowie das Werdende und Entstehende.</p>
+</div>
+</div>
+<div id="von-rio-1992-bis-heute" class="section level2 hasAnchor" number="4.6">
+<h2 class="hasAnchor"><span class="header-section-number">4.6</span> Von Rio 1992 bis heute<a href="#von-rio-1992-bis-heute" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Hatte Brundlandt Bericht /Our Common Future auf dringenden Handlungsbedarf in internationalem Rahmen hingewiesen, ging es nun darum, Forderungen und Vorschläge in verbindliche Verträge und Konventionen zu überführen. Als Instrument wählte die UNO hierfür eine Konferenz – exakt 20 Jahre nach der ersten weltweiten Umweltkonferenz 1972 in Stockholm. Bis damals grösste internationale Konferenz mit Delegierten aus über 170 Nationen.</p>
+<div class="factbox caution">
+<p>Die fünf verabschiedeten Dokumente der Rio-Konferenz sind:</p>
+<p>• <em>Walddeklaration</em>, die auf die okologische Bewirtschaftung und den Schutz der
+Walder der Erde zielt;</p>
+<p>• <em>Klimaschutz-Konvention</em>, in der sich die Staaten verpflichten, die Emissionen
+von Treibhausgasen weltweit auf den Stand von 1990 zu reduzieren;</p>
+<p>• <em>Biodiversitätskonvention</em>, die Schritte gegen die Abnahme der biologischen
+Vielfalt volkerrechtlich bindend festlegt;</p>
+<p>• <em>Deklaration von Rio über Umwelt und Entwicklung</em> und</p>
+<p>• <em>Agenda 21</em>. Sie ist das bekannteste der fünf Abkommen. Ihr zufolge ist es an den Regierungen der einzelnen Staaten selbst, für die Umsetzung des Nachhaltigkeitsleitbildes auf nationaler Ebene zu sorgen.</p>
+</div>
+<!--chapter:end:03-handlungsfelder.Rmd-->
+</div>
+</div>
+<div id="footnotes-and-citations" class="section level1 hasAnchor" number="5">
+<h1 class="hasAnchor"><span class="header-section-number">5</span> Footnotes and citations<a href="#footnotes-and-citations" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="footnotes" class="section level2 hasAnchor" number="5.1">
+<h2 class="hasAnchor"><span class="header-section-number">5.1</span> Footnotes<a href="#footnotes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Footnotes are put inside the square brackets after a caret <code>^[]</code>. Like this one <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
+</div>
+<div id="citations" class="section level2 hasAnchor" number="5.2">
+<h2 class="hasAnchor"><span class="header-section-number">5.2</span> Citations<a href="#citations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Reference items in your bibliography file(s) using <code>@key</code>.</p>
+<p>For example, we are using the <strong>bookdown</strong> package (check out the last code chunk in index.Rmd to see how this citation key was added) in this sample book, which was built on top of R Markdown and <strong>knitr</strong> <span class="citation">(<a href="#ref-xie2015">Xie 2015</a>)</span> (this citation was added manually in an external file book.bib).
+Note that the <code>.bib</code> files need to be listed in the index.Rmd with the YAML <code>bibliography</code> key.</p>
+<p>The RStudio Visual Markdown Editor can also make it easier to insert citations: <a href="https://rstudio.github.io/visual-markdown-editing/#/citations" class="uri">https://rstudio.github.io/visual-markdown-editing/#/citations</a></p>
+<!--chapter:end:04-transformation.Rmd-->
+</div>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:05-references.Rmd-->
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-xie2015" class="csl-entry">
+Xie, Yihui. 2015. <em>Dynamic Documents with <span>R</span> and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.org/knitr/">http://yihui.org/knitr/</a>.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>This is a footnote.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+<!--bookdown:body:end-->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+    </div>
+  </div>
+<!--bookdown:config-->
+
+</body>
+
+</html>

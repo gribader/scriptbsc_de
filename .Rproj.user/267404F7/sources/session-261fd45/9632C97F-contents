@@ -12,7 +12,7 @@ output: bookdown::gitbook
 ---
 
 
-# Einleitung [#einleitung]
+# Einleitung {#einleitung}
 
 ```{r wrappedglobe, fig.align='center', fig.cap="Wrapped globe: Christo 2020 (links) und Christo 1989 (rechts)", echo=FALSE, out.width="100%"}
 knitr::include_graphics(here::here("_book", "images/wrappedglobe.png"))
